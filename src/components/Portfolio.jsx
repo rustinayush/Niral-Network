@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './portfolio.css'; // Import your CSS file for styling
+import './portfolio.css';
 
 const Portfolio = ({ onLogout }) => {
     const [data, setData] = useState([]);
